@@ -1,0 +1,11 @@
+name: gdsca
+channels:
+  - defaults
+dependencies:
+  - python=3.8.13=hbdb9e5c_0
+  - jupyterlab=3.4.4
+  - seaborn=0.11.2=pyhd3eb1b0_0
+  - pip
+  - pip:
+    - plot-likert==0.4.0
+    - jupytext==1.14.0
