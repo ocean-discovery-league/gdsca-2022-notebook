@@ -2,7 +2,9 @@
 
 ## Installing
 
-After cloning this repo to your computer, using a terminal shell `cd` into the repo directory and run the `setup.sh` script:
+Make sure the `git` command line tools are installed on your computer https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/.
+
+Clone this *gdsca-2022-notebook* repo to your computer. After cloning, use a terminal shell to `cd` into the repo directory and run the `setup.sh` script:
 ```
 $ ./setup.sh
 ```
