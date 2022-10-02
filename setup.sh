@@ -12,8 +12,8 @@ if [[ -e "${VIRTUALIZE_ROOT}/data" ]]; then
     echo "data directory already exists, skipping data download"
 else
     echo "downloading gdsca-2022-data into ./data"
-    git clone git@github.com:ocean-discovery-league/gdsca-2022-data data   # FIXME use https
-    #git clone https://github.com/ocean-discovery-league/gdsca-2022-data data
+    git clone git@github.com:ocean-discovery-league/gdsca-2022-data # FIXME use https
+    #git clone https://github.com/ocean-discovery-league/gdsca-2022-data
 fi
 
 VIRTUALIZE_MINICONDA_DIR="${VIRTUALIZE_ROOT}/virtualize-miniconda"
