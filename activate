@@ -110,7 +110,9 @@ source $VIRTUALIZE_MINICONDA_DIR/miniconda/bin/activate gdsca
 PS1="$VIRTUALIZE_MINICONDA_ORIG_PS1"
 
 echo "miniconda activated for $VIRTUALIZE_MINICONDA_DIR"
-echo "type 'unactivate' to undo"
-echo ""
-echo "type 'jupyter-lab GDSCA-2022.ipynb' to launch the notebook"
+if [[ ! $VIRTUALIZE_ACTIVATE_VIA_SCRIPT ]]; then
+    echo "type 'unactivate' to undo"
+    echo ""
+    echo "type 'jupyter-lab GDSCA-2022.ipynb' to launch the notebook"
+fi
 echo ""
