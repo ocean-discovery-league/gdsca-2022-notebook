@@ -13,7 +13,7 @@ if [[ $VIRTUALIZE_ACTIVATE_VIA_SCRIPT ]]; then
 fi
     
 if [[ $VIRTUALIZE_ROOT && ! $VIRTUALIZE_ACTIVATE_VIA_SCRIPT ]]; then
-    echo "this shell is already virtualized for $VIRTUALIZE_ROOT, type 'unactivate' to undo"
+    echo "this shell is already virtualized for $VIRTUALIZE_ROOT, type 'unactivate' to undo this activation"
     return
 fi
 
