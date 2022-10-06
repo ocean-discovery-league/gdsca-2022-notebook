@@ -11,7 +11,7 @@ Clone this *gdsca-2022-notebook* repo to your computer. After cloning, use a ter
 $ ./setup.sh
 ```
 
-This will first clone a copy of the [`gdsca-2022-data`](https://github.com/ocean-discovery-league/gdsca-2022-data) repo into it's own directory right inside this repo. [`gdsca-2022-data`](https://github.com/ocean-discovery-league/gdsca-2022-data) is a separate repo that contains all the data from the survey. This data has been clean of all potentally personally identifiable information.
+This will first clone a copy of the [`gdsca-2022-data`](https://github.com/ocean-discovery-league/gdsca-2022-data) repo into it's own directory right inside this repo. [`gdsca-2022-data`](https://github.com/ocean-discovery-league/gdsca-2022-data) is a separate repo that contains all the data from the survey. This data has been cleaned of all potentally personally identifiable information.
 
 The script will then download and install a local virtualized copy of miniconda with Python 3.8 and all required packages for running the notebook in Jupyter Lab. It will require about 1 gigabyte of disk space.
 
