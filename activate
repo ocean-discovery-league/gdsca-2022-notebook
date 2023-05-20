@@ -7,7 +7,7 @@ if [[ ${BASH_SOURCE-} = $0 && ! $VIRTUALIZE_ACTIVATE_VIA_SCRIPT ]]; then
 fi
 
 if [[ $VIRTUALIZE_ACTIVATE_VIA_SCRIPT ]]; then
-    # this assume the script doing the activating does a 'cd' into the
+    # this assumes the script doing the activating does a 'cd' into the
     # directory where the activate file is is before sourcing it
     VIRTUALIZE_SOURCED_NAME="./activate"
 fi
