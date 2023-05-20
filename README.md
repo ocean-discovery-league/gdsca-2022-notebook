@@ -1,5 +1,7 @@
 # GDSCA 2022 Notebook
 
+This Python Jupyter Notebook was used to analyze the data gathered for the [`2022 Global Deep-Sea Capacity Assessment`](https://deepseacapacity.oceandiscoveryleague.org/). Please see the [`data`](https://deepseacapacity.oceandiscoveryleague.org/data) page there for more information.
+
 ## Installing
 
 Make sure the `git` command line tools are installed on your computer https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/.
