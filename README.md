@@ -52,11 +52,11 @@ $ ./render_figures_and_notebooks.sh
 ```
 This will take quite a bit of time to run and will generate some 9000+ files in a `figures` directory. There will also be a notebook generated for each region with the output for that region saved in the notebook. There is a reference copy of all this output available at [http://](https://github.com/ocean-discovery-league/gdsca-2022-figures).
 
-## Note: Figures D2, D3, E1, E2, E3, and F2 will not render correctly
+## Note: Section 2 figures D2, D3, E1, E2, E3, F1, and F2 will not render correctly
 
 Section 2 of the notebook is about the demographics of the survey participants. Since all personally identifiable information has been stripped from the public release of the data, the figures in section two *will not render correctly*. They will be blank, or they will have one bar instead of several bars. Do not use these figures.
 
-You can see the correctly rendered figures for section 2 in the [`gdsca-2022-figures`](https://github.com/ocean-discovery-league/gdsca-2022-figures) repo. That repo has all of the correct figures rendered with the complete data set. That repo also has copies of this notebook run across all eight regions with their output saved inline for reference. These copies of the notebooks were run on the public data set and will *not* have the correct sections 2 figures in them.
+You can see the correctly rendered figures for section 2 in the [`gdsca-2022-figures`](https://github.com/ocean-discovery-league/gdsca-2022-figures) repo. That repo has all of the correct figures rendered with the complete data set. That repo also has copies of this notebook run across all eight regions with their output saved inline for reference. These copies of the notebooks were run on the public data set and will *not* have the correct section 2 figures in them.
 
 ## Uninstalling
 
