@@ -85,8 +85,11 @@ function unactivate() {
     local virtualize_root="$VIRTUALIZE_ROOT"
     unset VIRTUALIZE_ROOT
     unset -f unactivate
+    unalias deactivate
     echo "unactivated $virtualize_root"
 }
+
+alias deactivate=unactivate
 
 VIRTUALIZE_LIST+=(miniconda)
 function unactivate_miniconda() {
