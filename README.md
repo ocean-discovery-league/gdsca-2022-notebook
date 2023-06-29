@@ -50,7 +50,7 @@ You can render all 900+ figures across all eight regions (Africa, Asia, Europe, 
 ```
 $ ./render_figures_and_notebooks.sh
 ```
-This will take quite a bit of time to run and will generate some 9000+ files in a `figures` directory. There will also be a notebook generated for each region with the output for that region saved in the notebook. There is a reference copy of all this output available at [https://github.com/ocean-discovery-league/gdsca-2022-figures](https://github.com/ocean-discovery-league/gdsca-2022-figures).
+This will take quite a bit of time to run and will generate some 9000+ files in a `gdsca-2022-figures` directory. There will also be a notebook generated for each region with the output for that region saved in the notebook. There is a reference copy of all this output available at [https://github.com/ocean-discovery-league/gdsca-2022-figures](https://github.com/ocean-discovery-league/gdsca-2022-figures).
 
 ## Note: Section 2 figures D2, D3, E1, E2, E3, F1, and F2 will not render correctly
 
