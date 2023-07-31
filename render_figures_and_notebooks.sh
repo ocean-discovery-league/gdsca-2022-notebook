@@ -2,7 +2,7 @@
 
 VIRTUALIZE_ACTIVATE_VIA_SCRIPT=1 source ./activate
 
-REGIONS="Africa Asia Europe Oceania Americas Global Economies SIDS"
+REGIONS="Africa Asia Europe Oceania Americas Global Economies Global-SIDS Global-nonSIDS Global-SIDS-nonSIDS"
 
 mkdir -p gdsca-2022-figures/notebooks
 
